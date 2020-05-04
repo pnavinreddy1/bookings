@@ -1,0 +1,181 @@
+{
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "sessions": [
+      "Breakfast",
+      "Morning",
+      "Lunch",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookables": {
+      "rooms": [
+        {
+          "id": 1,
+          "title": "Lounge",
+          "notes": "A relaxing place to hang out.",
+          "sessions": [
+            0,
+            2,
+            4
+          ],
+          "days": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Meeting Room",
+          "notes": "Formal. Seats 12.",
+          "sessions": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Games Room",
+          "notes": "Table tennis, table football, pinball!",
+          "sessions": [
+            0,
+            2,
+            4
+          ],
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "kit": [
+        {
+          "id": 4,
+          "title": "Projector",
+          "notes": "Powerful and sharp.",
+          "sessions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Wireless mics",
+          "notes": "Really handy but don't forget to switch them off.",
+          "sessions": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    "bookings": [
+      {
+        "id": 1,
+        "bookableID": 2,
+        "bookerID": 1,
+        "day": "Wednesday",
+        "session": "Lunch",
+        "title": "Lunchtime Talk"
+      },
+      {
+        "id": 2,
+        "bookableID": 2,
+        "bookerID": 3,
+        "day": "Thursday",
+        "session": "Lunch",
+        "title": "Lunchtime Talk 2"
+      },
+      {
+        "id": 3,
+        "bookableID": 3,
+        "bookerID": 1,
+        "day": "Monday",
+        "session": "Breakfast",
+        "title": "Start the Week"
+      },
+      {
+        "session": "Afternoon",
+        "day": "Tuesday",
+        "bookableID": 2,
+        "title": "Zzzzz",
+        "bookerID": 1,
+        "id": 5
+      },
+      {
+        "session": "Breakfast",
+        "day": "Tuesday",
+        "bookableID": 2,
+        "title": "Goodness",
+        "bookerID": 4,
+        "id": 6
+      },
+      {
+        "session": "Breakfast",
+        "day": "Thursday",
+        "bookableID": 2,
+        "title": "aaa",
+        "bookerID": 2,
+        "id": 7
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Mark"
+      },
+      {
+        "id": 2,
+        "name": "Simon"
+      },
+      {
+        "id": 3,
+        "name": "Clarisse"
+      },
+      {
+        "id": 4,
+        "name": "Sanjiv"
+      }
+    ]
+  }
