@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './BookablesSplit/App';
+import App from './BookingsGrid/App';
 
 
 ReactDOM.render(
